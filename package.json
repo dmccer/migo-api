@@ -4,9 +4,17 @@
   "description": "",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "better-queue": "^3.8.6",
+    "cheerio": "^1.0.0-rc.2",
     "egg": "^2.2.1",
     "egg-mysql": "^3.0.0",
-    "egg-scripts": "^2.5.0"
+    "egg-scripts": "^2.5.0",
+    "iconv-lite": "^0.4.19",
+    "log4js": "^2.5.3",
+    "md5": "^2.2.1",
+    "mkdirp": "^0.5.1",
+    "queue": "^4.4.2"
   },
   "devDependencies": {
     "autod": "^3.0.1",

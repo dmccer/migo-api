@@ -2,7 +2,10 @@
 
 // had enabled by egg
 // exports.static = true;
-exports.mysql = {
-  enable: true,
-  package: 'egg-mysql',
+
+module.exports = {
+  mysql: {
+    enable: true,
+    package: 'egg-mysql',
+  },
 };

@@ -1,5 +1,7 @@
 'use strict';
 
+const path = require('path');
+
 module.exports = appInfo => {
   const config = exports = {};
 
@@ -8,6 +10,10 @@ module.exports = appInfo => {
 
   // add your config here
   config.middleware = [];
+  config.bodyParser = {
+    jsonLimit: '10mb',
+  };
+  config.mediaDir = path.join(appInfo.baseDir, 'media');
 
   return config;
 };

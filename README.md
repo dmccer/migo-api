@@ -1,7 +1,5 @@
 # migo-api
 
-
-
 ## QuickStart
 
 <!-- add docs here for user -->
